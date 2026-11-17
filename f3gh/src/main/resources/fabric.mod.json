@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "f3confirm",
+  "version": "1.0.0",
+  "name": "F3 Confirm",
+  "description": "Pyta czy na pewno chcesz wlaczyc F3.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.f3confirm.F3ConfirmClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
