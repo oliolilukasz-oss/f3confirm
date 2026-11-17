@@ -15,8 +15,9 @@ jobs:
         with:
           gradle-version: 9.2.0
       - name: Build
+        working-directory: f3gh
         run: gradle build --no-daemon
       - uses: actions/upload-artifact@v4
         with:
           name: f3confirm-mod
-          path: build/libs/f3confirm-1.0.0.jar
+          path: f3gh/build/libs/f3confirm-1.0.0.jar
